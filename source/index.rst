@@ -1,13 +1,16 @@
+Contents:
+
+.. toctree::
+   :maxdepth: 2
+   :glob:
+
+   *
+
+
+
+Indices and tables
+==================
 
 * :ref:`genindex`
 * :ref:`modindex`
-* :ref:`seach`
-
-.. toctree:
-	:maxdepth: 2
-
-	instro
-	sample
-Content:
-	sunny 
-	孙孟荀	
+* :ref:`search`	
