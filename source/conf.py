@@ -23,6 +23,19 @@ project = 'testDoc'
 copyright = '2019, sunny'
 author = 'sunny'
 
+mport sphinx_bootstrap_theme
+html_theme = 'bootstrap'
+html_theme_path = sphinx_bootstrap_theme.get_html_theme_path()
+html_theme_options = {
+    'navbar_title': "Sandglass",
+    'globaltoc_depth': 2,
+    'globaltoc_includehidden': "true",
+    'navbar_class': "navbar navbar-inverse",
+    'navbar_fixed_top': "true",
+    'bootswatch_theme': "united",
+    'bootstrap_version': "3",
+}:
+
 # The short X.Y version
 version = ''
 # The full version, including alpha/beta/rc tags
